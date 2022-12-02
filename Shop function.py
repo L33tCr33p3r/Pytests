@@ -5,7 +5,7 @@ def shop(money: int, inventory: dict[str, int]):
 
         print("Your items:", end = ' ')
         for i in inventory:
-            print(f"{inventory[i]} {i}", end = ' ')
+            print(f"{inventory[i]} {i}", end = ', ')
         print()
 
         print("Shop items: Potions for 5$, Food for 3$, Keys for 10$")
